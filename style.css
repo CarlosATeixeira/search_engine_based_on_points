@@ -1,0 +1,40 @@
+body{
+    background-color: #112;
+    font-size: larger;
+    display: grid;
+    justify-content: center;
+    min-height: 100dvh;
+    padding: 50px;
+    overflow-x: hidden;
+}
+
+.search{
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search > input{
+    border: none;
+    border-radius: 20px;
+    scale: 3;
+    text-align: center;
+}
+
+.words{
+    /* outline: 2px red solid; */
+    width: 50dvw;
+    margin-top: 50px;
+    color: #eee;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    text-align: center;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.words > p{
+    margin: 2px;
+}
